@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<?import hi.verkefni.MatsedillView?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="913.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.verkefni.PontunController">
+   <children>
+      <MatsedillView fx:id='foodlist' prefHeight="517.0" prefWidth="312.0" />
+      <ListView fx:id="fxCart" layoutX="624.0" prefHeight="517.0" prefWidth="291.0" />  
+      <Button layoutX="429.0" layoutY="128.0" mnemonicParsing="false" onAction="#fxSetjaKorfuHandler" text="Bæta við" />
+      <Button layoutX="429.0" layoutY="234.0" mnemonicParsing="false" onAction="#fxTakaUrKorfuHandler" prefHeight="26.0" prefWidth="65.0" text="Úr körfu" />
+      <Button layoutX="429.0" layoutY="320.0" mnemonicParsing="false" onAction="#fxInnskraningHandler" prefHeight="26.0" prefWidth="65.0" text="Innskráning" />
+      <TextField layoutX="350.0" layoutY="405.0" prefHeight="75.0" prefWidth="213.0" />
+   </children>
+</Pane>

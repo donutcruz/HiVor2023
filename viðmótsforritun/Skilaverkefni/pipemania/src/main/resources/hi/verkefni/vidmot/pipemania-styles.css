@@ -1,0 +1,154 @@
+
+.kista {
+    -fx-background-image: url("myndir/pipes.jpg");
+    -fx-background-size: contain;
+
+}
+
+.point-screen {
+    -fx-background-color: #000000;
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #72c0ff;
+}
+
+.flow-button {
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #72c0ff;
+    -fx-background-color: #000000;
+}
+
+#fxRestart {
+    -fx-font-size: 16pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: #72c0ff;
+    -fx-background-color: #000000;
+}
+
+#fxRestart:hover {
+    -cursor: pointer;
+    -fx-background-color: #72c0ff;
+    -fx-text-fill: #000000;
+}
+
+.flow-button:hover {
+    -cursor: pointer;
+    -fx-background-color: #72c0ff;
+    -fx-text-fill: #000000;
+}
+
+.base-pipe {
+    -fx-background-image: url("myndir/base.png");
+    -fx-background-size: contain;
+}
+
+
+.pnullV {
+    -fx-background-image: url("myndir/V-first-pipe.png");
+    -fx-background-size: contain;
+}
+
+.pnullN {
+    -fx-background-image: url("myndir/N-first-pipe.png");
+    -fx-background-size: contain;
+}
+
+.pnullA {
+    -fx-background-image: url("myndir/A-first-pipe.png");
+    -fx-background-size: contain;
+}
+
+.pnullS {
+    -fx-background-image: url("myndir/S-first-pipe.png");
+    -fx-background-size: contain;
+}
+
+
+.fpnullV {
+    -fx-background-image: url("myndir/V-first-pipe-flooded.png");
+    -fx-background-size: contain;
+}
+
+.fpnullN {
+    -fx-background-image: url("myndir/N-first-pipe-flooded.png");
+    -fx-background-size: contain;
+}
+
+.fpnullA {
+    -fx-background-image: url("myndir/A-first-pipe-flooded.png");
+    -fx-background-size: contain;
+}
+
+.fpnullS {
+    -fx-background-image: url("myndir/S-first-pipe-flooded.png");
+    -fx-background-size: contain;
+}
+
+
+.pNS, .pSN {
+    -fx-background-image: url("myndir/0-updown.png");
+    -fx-background-size: contain;
+}
+
+.pVA, .pAV {
+    -fx-background-image: url("myndir/1-leftright.png");
+    -fx-background-size: contain;
+}
+
+.pSA, .pAS {
+    -fx-background-image: url("myndir/2-bottomright.png");
+    -fx-background-size: contain;
+}
+
+.pNA, .pAN {
+    -fx-background-image: url("myndir/3-topright.png");
+    -fx-background-size: contain;
+}
+
+.pSV, .pVS {
+    -fx-background-image: url("myndir/4-bottomleft.png");
+    -fx-background-size: contain;
+}
+
+.pNV, .pVN {
+    -fx-background-image: url("myndir/5-topleft.png");
+    -fx-background-size: contain;
+}
+
+
+.fpNS, .fpSN {
+    -fx-background-image: url("myndir/0-updown-flooded.png");
+    -fx-background-size: contain;
+}
+
+.fpVA, .fpAV {
+    -fx-background-image: url("myndir/1-leftright-flooded.png");
+    -fx-background-size: contain;
+}
+
+.fpSA, .fpAS {
+    -fx-background-image: url("myndir/2-bottomright-flooded.png");
+    -fx-background-size: contain;
+}
+
+.fpNA, .fpAN {
+    -fx-background-image: url("myndir/3-topright-flooded.png");
+    -fx-background-size: contain;
+}
+
+.fpSV, .fpVS {
+    -fx-background-image: url("myndir/4-bottomleft-flooded.png");
+    -fx-background-size: contain;
+}
+
+.fpNV, .fpVN {
+    -fx-background-image: url("myndir/5-topleft-flooded.png");
+    -fx-background-size: contain;
+}
+
+
+.explosion {
+    -fx-background-image: url("myndir/explosion.png");
+    -fx-background-size: contain;
+}
